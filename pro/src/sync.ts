@@ -478,7 +478,7 @@ const ensembleMixedEnties = async (
         syncUnderscoreItems,
         configDir,
         ignorePaths,
-        onlyAllowPaths
+        ["^.+$"]
       );
       skipOrNotResults[key] = skipOrNot;
     }
